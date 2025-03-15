@@ -1,69 +1,67 @@
-# Welcome to your Lovable project
+# Exchange Money
 
-## Project info
+## Description
+Exchange Money is a secure and user-friendly application designed for managing digital assets and transactions efficiently. This project leverages modern web technologies to provide a seamless user experience.
 
-**URL**: https://lovable.dev/projects/49d830e0-2be7-4c31-bf03-88a7472df4fe
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/49d830e0-2be7-4c31-bf03-88a7472df4fe) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
+## Technologies Used
 - React
-- shadcn-ui
+- Radix UI
+- React Hook Form
 - Tailwind CSS
+- Vite
 
-## How can I deploy this project?
+## Features
+- Secure authentication and authorization
+- User-friendly interface with Radix UI components
+- Form validation with React Hook Form
+- Fast and optimized performance with Vite
+- Responsive design using Tailwind CSS
 
-Simply open [Lovable](https://lovable.dev/projects/49d830e0-2be7-4c31-bf03-88a7472df4fe) and click on Share -> Publish.
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/exchange-haven-vault.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd exchange-haven-vault
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-## I want to use a custom domain - is that possible?
+## Usage
+- Open the application in your browser at `http://localhost:3000` (default Vite port).
+- Sign up or log in to access the dashboard.
+- Manage your digital assets securely.
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## Dependencies
+### Main Dependencies
+- `@hookform/resolvers`
+- `@radix-ui/react-accordion`
+- `@radix-ui/react-alert-dialog`
+- `@radix-ui/react-aspect-ratio`
+- `@radix-ui/react-avatar`
+- `@radix-ui/react-checkbox`
+- `@radix-ui/react-collapsible`
+- `@radix-ui/react-context-menu`
+- `@radix-ui/react-dialog`
+- `@radix-ui/react-dropdown-menu`
+
+### Development Dependencies
+- `@eslint/js`
+- `@tailwindcss/typography`
+- `@types/node`
+- `@types/react`
+- `@types/react-dom`
+- `@vitejs/plugin-react-swc`
+- `autoprefixer`
+- `eslint`
+- `eslint-plugin-react-hooks`
+- `eslint-plugin-react-refresh`
+
